@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Medical Charity Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href=" img/medicare.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="img/medicare.png" alt="Medical Charity Logo" id="med">
+            </a>
+            <div class="nav-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mission.html">Our Mission</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="team.html">Our Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="team.html">Our Team</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you. Contact us with any questions or inquiries.</p>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><a href="#">Phone: +1-555-555-5555</a></li>
+                    <li><a href="#">Email: info@medicalcharity.com</a></li>
+                    <li><a href="#">Address: 123 Main Street, City, State, Zip</a></li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="amount">Amount:</label>
+                    <select id="amount" name="amount">
+                        <option value="family-law">100$</option>
+                        <option value="business-law">200$</option>
+                        <option value="real-estate-law">300$</option>
+                        <option value="criminal-law">400$</option>
+                    </select>
+
+                    <label for="region">Region:</label>
+                    <select id="region" name="region">
+                        <option value="family-law">Africa</option>
+                        <option value="business-law">Asia</option>
+                        <option value="real-estate-law">Europe</option>
+                        <option value="criminal-law">America</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="animated-button">Send Donation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Our Values</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2023 Medical Charity Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
